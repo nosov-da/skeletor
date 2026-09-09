@@ -15,7 +15,7 @@ type userRepo struct {
 	// db *pgxpool.Pool
 }
 
-func NewUserRepository(/* db *pgxpool.Pool */) UserRepository {
+func NewUserRepository( /* db *pgxpool.Pool */ ) UserRepository {
 	return &userRepo{}
 }
 

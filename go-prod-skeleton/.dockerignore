@@ -1,5 +1,0 @@
-.git
-bin/
-*.md
-.env
-docker-compose.yml
